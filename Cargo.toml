@@ -1,0 +1,9 @@
+[package]
+name = "jsonlint"
+version = "1.0.0"
+authors = ["Philipp Speck <philipp@typo.media>"]
+edition = "2021"
+
+[dependencies]
+clap = "3.2.0"
+json = "0.12.4"
