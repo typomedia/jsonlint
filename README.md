@@ -15,6 +15,6 @@ It's written in Rust, and uses the [json](https://crates.io/crates/json) library
     -p, --pretty     Pretty prints a JSON file
     -V, --version    Print version information
 
-## Building
+## Build
 
     make build
