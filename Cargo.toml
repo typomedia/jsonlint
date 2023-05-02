@@ -4,6 +4,10 @@ version = "1.0.0"
 authors = ["Philipp Speck <philipp@typo.media>"]
 edition = "2021"
 
+[profile.release]
+strip = true
+lto = true
+
 [dependencies]
 clap = "3.2.0"
 json = "0.12.4"
